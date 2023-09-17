@@ -1,0 +1,16 @@
+#categoryList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+}
+#collectionPage{
+    z-index: 1;
+    background-color: white;
+    margin-top: 60px    ;
+}
+#collectionPage h1{
+    text-align: center;
+    margin: 80px 0;
+}

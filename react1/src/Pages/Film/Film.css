@@ -1,0 +1,117 @@
+#filmPage{
+    background:white;
+    position: absolute;
+    z-index: 1;
+    width:100%;
+    height: fit-content;
+    display:flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.filmPageInfoWrap{
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: space-evenly;
+    height: fit-content;
+}
+.filmPageImg{
+    max-width: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.filmPageImg img{
+    object-fit: fill;
+    height:auto;
+    width:100%;
+}
+.filmPageInfo{
+    width: 50%;
+    min-height:80vh;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.filmTitle{
+    font-size:40px ;
+    text-align: center;
+}
+ #filmTitle{
+    font-size: 45px;
+    font-weight: 400;
+}
+.filmdistributor{
+    width: fit-content;
+    margin-top: 10px;
+    margin-right:10%;
+    margin-left: auto;
+    font-weight: 800;
+    font-size: 35px;
+    padding: 5px 10px;
+    background-color: rgb(37, 37, 255);
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.filmdistributor:hover{
+    background-color: rgb(106, 208, 255);
+    color: black;
+}
+.filmSummary{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#filmDescription{
+    font-size: larger;
+}
+#filmDescription  , .filmSummary , .filmPrice{
+    margin-left: 2%;
+}
+#filmPrice{
+    font-size: larger;
+}
+#filmInStock{
+    font-size: 20px;
+    padding:3px 10px;
+    background-color:orange;
+    width:fit-content;
+    margin-left: 5%;
+}
+.filmBtn1{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: larger;
+    font-weight: 500;
+    padding:5px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(0, 170, 0);
+    color: white;
+    transition:all 0.5s;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+}
+.filmBtn1:hover{
+    padding: 20px 60px;
+    background-color: greenyellow;
+    color: black;
+}
+#filmBack{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 50px;
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    margin-top:50px;
+    margin-bottom:200px;
+    width:fit-content;
+    border-radius: 15px;
+    background-color: rgb(195, 194, 194);
+    transition:0.5s;
+}
+#filmBack:hover{
+    color:white;
+    background:blue;
+}

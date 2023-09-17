@@ -1,0 +1,47 @@
+#meni{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color:  rgb(116, 28, 116);
+    color:white;
+    box-shadow:0,0,10,10 rgba(255,255,255,0.85);
+    position: absolute;
+    z-index: 0;
+    top:0;
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: scroll;
+}
+#meni h1 {
+    margin-left: 13%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-weight: 400;
+    width:fit-content;
+    margin-right:30%;
+}
+ #meni ul{
+     width: fit-content;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 13%;
+}
+#meni ul li{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 15px;
+    font-weight: 400;
+    width:100px;
+    text-align: center;
+}
+#meni a{
+    text-decoration: none;
+    color: white;
+}
+#logout{
+    cursor: pointer;
+}
